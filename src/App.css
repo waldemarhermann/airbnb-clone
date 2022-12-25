@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 30px;
+  box-shadow: 0px 3px 7.4px rgba(0, 0, 0, 0.1)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  padding: 25px;
+}
+
+.hero {
   display: flex;
   flex-direction: column;
+}
+
+.hero--img {
+  max-width: 800px;
+  align-self: center;
+}
+
+.hero--headline {
+  margin: 80px 0 14px 14px;
+}
+
+.hero--text {
+  margin: 0 0 0 14px;
+}
+
+.card--section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--katie--img {
+  width: 176px;
+  max-height: 235px;
+  border-radius: 10px;
+}
+
+.card--section--overlay {
+  position: absolute;
+  left: 32px;
+  top: 100px;
+  background-color: white;
+  content: text;
+  border-radius: 4px;
+  font-size: 10px;
+  padding: 3px;
+}
+
+.card--section--text {
+  font-size: 12px;
+}
+
+.card--star--img {
+  width: 14px;
+  margin-right: 5px;
+}
+
+.card--section--starandtext {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -10px;
+  margin-bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.card--section--firstP {
+  color: #918E9B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--section--secondP {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.card-section--doubleP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card--section-thirdP {
+  font-weight: bold;
 }
