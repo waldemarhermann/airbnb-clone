@@ -4,7 +4,8 @@ import Hero from "./components/Hero"
 import Card from "./components/Card"
 import data from "./data"
 
-function App(props) {
+function App() {
+
   const dataInfo = data.map(item => {
     return (
       <Card
@@ -27,7 +28,7 @@ function App(props) {
       </div>
     </div>
 
-  );
+  )
 }
 
 export default App;
