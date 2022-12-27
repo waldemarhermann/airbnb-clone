@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         img: "ireland.png",
         location: "Ireland",
         stats: {
@@ -11,6 +12,7 @@ export default [
     },
 
     {
+        id: 2,
         img: "corfu.png",
         location: "Corfu",
         stats:  {
@@ -22,6 +24,7 @@ export default [
     },
 
     {
+        id:3,
         img: "norway.png",
         location: "Norway",
         stats:  {
