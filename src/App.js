@@ -2,34 +2,28 @@ import './App.css';
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Card from "./components/Card"
+import data from "./data"
 
 function App(props) {
+  const dataInfo = data.map(item => {
+    return (
+      <Card
+        img={item.img}
+        location={item.location}
+        rating={item.stats.rating}
+        views={item.stats.views}
+        title={item.title}
+        price={item.price}
+      />
+    )
+  })
+
   return (
     <div className="App">
       <Navbar />
       <Hero />
       <div className='card'>
-        <Card
-          img="katie-zaferes.png"
-          rating="5.0"
-          views={6}
-          title="Life lessons with Katie Zaferes"
-          price={136}
-        />
-        <Card
-          img="katie-zaferes.png"
-          rating="5.0"
-          views={6}
-          title="Life lessons with Katie Zaferes"
-          price={136}
-        />
-         <Card
-          img="katie-zaferes.png"
-          rating="5.0"
-          views={6}
-          title="Life lessons with Katie Zaferes"
-          price={136}
-        />
+        {dataInfo}
       </div>
     </div>
 
