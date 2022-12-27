@@ -6,7 +6,7 @@ import data from "./data"
 
 function App() {
 
-  /* const dataInfo = data.map(item => {
+  const dataInfo = data.map(item => {
     return (
       <Card
         img={item.img}
@@ -17,13 +17,14 @@ function App() {
         price={item.price}
       />
     )
-  }) */
+  }) 
 
   return (
     <div className="App">
       <Navbar />
       <Hero />
       <div className='card'>
+        {dataInfo}
       </div>
     </div>
 

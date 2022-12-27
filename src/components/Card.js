@@ -7,7 +7,7 @@ function Card(props) {
             </div>
             <div className="card--section--text">
                 <div className="card--section--starandtext">
-                    <img className="card--star--img" src="./star-icon.png" alt="Star-icon" />
+                    <img className="card--star--img" src="star-icon.png" alt="Star-icon" />
                     <p>{props.rating}</p>
                     <p className="card--section--firstP">({props.views}) &#x2022;{props.location}</p>
                 </div>
