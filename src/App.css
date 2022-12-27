@@ -42,8 +42,11 @@ section {
 }
 
 .card--section {
+  width: 200px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  font-size: 12px;
 }
 
 .card--katie--img {
@@ -54,47 +57,46 @@ section {
 
 .card--section--overlay {
   position: absolute;
-  left: 32px;
-  top: 100px;
+  top: 6px;
+  left: 6px;
   background-color: white;
-  content: text;
-  border-radius: 4px;
-  font-size: 10px;
-  padding: 3px;
-}
-
-.card--section--text {
-  font-size: 12px;
-}
-
-.card--star--img {
-  width: 14px;
-  margin-right: 5px;
-}
-
-.card--section--starandtext {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: -10px;
-  margin-bottom: 0;
-}
-
-.card--section--firstP {
-  color: #918E9B;
-}
-
-.card--section--secondP {
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
-.card-section--doubleP {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.card--section-thirdP {
+  padding: 5px 7px;
+  border-radius: 2px;
   font-weight: bold;
 }
+
+  .card--section--text {
+    font-size: 12px;
+  }
+
+  .card--star--img {
+    width: 14px;
+    margin-right: 5px;
+  }
+
+  .card--section--starandtext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 0;
+  }
+
+  .card--section--firstP {
+    color: #918E9B;
+  }
+
+  .card--section--secondP {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
+  .card-section--doubleP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card--section-thirdP {
+    font-weight: bold;
+  }

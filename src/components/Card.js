@@ -1,9 +1,16 @@
 function Card(props) {
+
+    let badge
+    if (props.openspots == true) {
+        badge = "Avaible"
+    } else {
+        badge = "Not avaible"
+    }
     return (
         <section className="card--section">
             <div className="card--section--img">
                 <img className="card--katie--img" src={props.img} alt="airbnb-pic" />
-                {/* <div className="card--section--overlay">SOLD OUT</div> */}
+                <div className="card--section--overlay">{badge}</div>
             </div>
             <div className="card--section--text">
                 <div className="card--section--starandtext">

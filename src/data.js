@@ -9,6 +9,7 @@ export default [
         },
         title: "From Dublin to the Wild Atlantic Way: An Epic Airbnb Journey through Ireland",
         price: 75,
+        openSpots: true,
     },
 
     {
@@ -21,6 +22,7 @@ export default [
         },
         title: "Escape to the Mediterranean: A Relaxing Retreat in Corfu",
         price: 52,
+        openSpots: false,
     },
 
     {
@@ -33,6 +35,7 @@ export default [
         },
         title: "Embrace the Great Outdoors in Norway: A Rustic Airbnb Retreat",
         price: 192,
+        openSpots: true,
     },
 
 

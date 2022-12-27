@@ -16,6 +16,8 @@ function App() {
         views={item.stats.views}
         title={item.title}
         price={item.price}
+        openspots={item.openSpots}
+        
       />
     )
   }) 
