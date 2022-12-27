@@ -1,6 +1,6 @@
 export default [
     {
-        img: "katie-zaferes.png",
+        img: "ireland.png",
         location: "Ireland",
         stats: {
         rating: 5.0,
@@ -11,7 +11,7 @@ export default [
     },
 
     {
-        img: "katie-zaferes.png",
+        img: "corfu.png",
         location: "Corfu",
         stats:  {
         rating: 5.0,
@@ -22,7 +22,7 @@ export default [
     },
 
     {
-        img: "katie-zaferes.png",
+        img: "norway.png",
         location: "Norway",
         stats:  {
         rating: 5.0,
